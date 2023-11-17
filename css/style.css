@@ -101,3 +101,9 @@ main {
     align-items: center;
 
 }
+
+.download-container {
+    background-color: green;
+    flex-basis: 100%;
+    min-height: 800px;
+}
