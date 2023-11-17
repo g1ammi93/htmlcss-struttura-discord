@@ -24,8 +24,6 @@ header {
     min-width: 1080px;
     height: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: yellow;
 }
 
@@ -81,12 +79,14 @@ main {
     background-color: blue;
     flex-basis: calc(100% / 3 * 2);
     min-height: 400px;
+    border: 2px dashed;
 }
 
 .secondary-container {
     background-color: red;
     flex-basis: calc(100% / 3);
     min-height: 400px;
+    border: 2px dashed
 }
 
 .reverse {
@@ -106,4 +106,73 @@ main {
     background-color: green;
     flex-basis: 100%;
     min-height: 800px;
+    border: 2px dashed
+}
+
+footer>div {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-footer-container {
+    background-color: lightblue;
+    flex-basis: calc(100% / 4 * 3);
+    min-height: 400px;
+    border: 2px dashed;
+    display: flex;
+}
+
+.secondary-footer-container {
+    background-color: palevioletred;
+    flex-basis: calc(100% / 4);
+    min-height: 400px;
+    border: 2px dashed
+}
+
+.col-footer {
+    border: 1px dashed;
+    width: 25%;
+    min-height: 100%;
+    display: inline-block;
+}
+
+.button-container {
+    border: 1px dashed;
+    min-width: 1080px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 255, 200);
+}
+
+.last-container {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.third-footer-container {
+    display: flex;
+    min-height: 30px;
+    min-width: 1080px;
+    margin-top: 20px;
+}
+
+.logo-footer {
+    border: 1px dashed;
+    width: 5%;
+    min-height: 60%;
+    display: inline-block;
+    background-color: pink;
+}
+
+button {
+    border: 1px dashed;
+    width: 5%;
+    min-height: 60%;
+    display: inline-block;
+    background-color: pink;
 }
