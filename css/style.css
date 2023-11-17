@@ -175,4 +175,5 @@ button {
     min-height: 60%;
     display: inline-block;
     background-color: pink;
+    cursor: pointer;
 }
