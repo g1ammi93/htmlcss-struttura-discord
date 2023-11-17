@@ -1,0 +1,57 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 216, 230);
+    min-height: 50px;
+}
+
+.secondary-header {
+    background-color: blue;
+    min-height: 400px;
+}
+
+.nav-box {
+    border: 1px dashed;
+    min-width: 1080px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    border: 2px dashed;
+    min-width: 800px;
+    min-height: 300px;
+    background-color: purple;
+}
+
+.logo {
+    border: 1px dashed;
+    width: 25%;
+    min-height: 30px;
+    display: inline-block;
+}
+
+.link {
+    border: 1px dashed;
+    width: 50%;
+    min-height: 30px;
+    display: inline-block;
+}
+
+.login {
+    border: 1px dashed;
+    width: 25%;
+    min-height: 30px;
+    display: inline-block;
+}
