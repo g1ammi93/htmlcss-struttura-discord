@@ -39,6 +39,16 @@
     min-height: 400px;
 }
 
+.contbkg,
+footer>div,
+.button-container,
+main,
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Header */
 
 header {
@@ -106,16 +116,6 @@ main {
 
 .reverse {
     flex-direction: row-reverse;
-}
-
-.contbkg,
-footer>div,
-.button-container,
-main,
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .contbkg {
